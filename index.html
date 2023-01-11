@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+		rel="stylesheet">
+	<!-- my css -->
+	<link rel="stylesheet" href="styles.css">
+	<!-- title -->
+	<title>Site com Flexbox</title>
+
+</head>
+
+<body>
+	<div class="main">
+		<div class="sidebar">
+			<div class="sidebar__header">
+				<img src="./assets/logo.svg" alt="logo image">
+			</div>
+
+			<div class="sidebar__footer">
+				<button href="#" class="footer__sign-out">sair</button>
+			</div>
+		</div>
+
+		<div class="content">
+
+			<div class="content__title-box">
+				<h1 class="content__title-box__title">Friendly Book</h1>
+			</div>
+			<div class="content__card-box">
+				<div class="content__profile-card-1 profile-card">
+					<div class="content__profile-card-1__box-img box-img">
+						<img class="content__profile-card-1__img" src="./assets/4.png" alt="Kilvin Costa Image">
+					</div>
+
+					<div class="content__profile-card-1__box-title box-title">
+						<h1 class="content__profile-card-1__box-title__name title__name">Kelvin Costa</h1>
+						<p class="content__profile-card-1__box-title__nickname nickname">@costa</p>
+					</div>
+
+					<div class="content__profile-card-1__box-social-status box-social-status">
+						<p class="content__profile-card-1__box-social-status__followers followers">140 seguidores</p>
+						<p class="content__profile-card-1__box-social-status__following following">207 seguindo</p>
+					</div>
+				</div>
+
+				<div class="content__profile-card-2 profile-card">
+					<div class="content__profile-card-2__box-img box-img">
+						<img class="content__profile-card-2__img" src="./assets/3.png" alt="Charles Santos Image">
+					</div>
+
+					<div class="content__profile-card-2__box-title box-title">
+						<h1 class="content__profile-card-2__box-title__name title__name">Charles Santos</h1>
+						<p class="content__profile-card-2__box-title__nickname nickname">@charles.santos</p>
+					</div>
+
+					<div class="content__profile-card-2__box-social-status box-social-status">
+						<p class="content__profile-card-2__box-social-status__followers followers">302 seguidores</p>
+						<p class="content__profile-card-2__box-social-status__following following">419 seguindo</p>
+					</div>
+				</div>
+				<div class="content__profile-card-3 profile-card">
+					<div class="content__profile-card-3__box-img box-img">
+						<img class="content__profile-card-3__img" src="./assets/1.png" alt="Anna Bia Image">
+					</div>
+
+					<div class="content__profile-card-3__box-title box-title">
+						<h1 class="content__profile-card-3__box-title__name title__name">Anna Bia</h1>
+						<p class="content__profile-card-3__box-title__nickname nickname">@anab</p>
+					</div>
+
+					<div class="content__profile-card-3__box-social-status box-social-status">
+						<p class="content__profile-card-3__box-social-status__followers followers">842 seguidores</p>
+						<p class="content__profile-card-3__box-social-status__following following">150 seguindo</p>
+					</div>
+				</div>
+				<div class="content__profile-card-4 profile-card">
+					<div class="content__profile-card-4__box-img box-img">
+						<img class="content__profile-card-4__img" src="./assets/2.png" alt="Mario Hisashi Image">
+					</div>
+
+					<div class="content__profile-card-4__box-title box-title">
+						<h1 class="content__profile-card-4__box-title__name title__name">Mario Hisashi</h1>
+						<p class="content__profile-card41__box-title__nickname nickname">@hisashi</p>
+					</div>
+
+					<div class="content__profile-card-4__box-social-status box-social-status">
+						<p class="content__profile-card-4__box-social-status__followers followers">28 seguidores</p>
+						<p class="content__profile-card-4__box-social-status__following following">17 seguindo</p>
+					</div>
+				</div>
+				<div class="content__profile-card-5 profile-card">
+					<div class="content__profile-card-5__box-img box-img">
+						<img class="content__profile-card-5__img" src="./assets/4.png" alt="Kilvin Costa Image">
+					</div>
+
+					<div class="content__profile-card-5__box-title box-title">
+						<h1 class="content__profile-card-5__box-title__name title__name">Kelvin Costa</h1>
+						<p class="content__profile-card-5__box-title__nickname nickname">@costa</p>
+					</div>
+
+					<div class="content__profile-card-5__box-social-status box-social-status">
+						<p class="content__profile-card-5__box-social-status__followers followers">140 seguidores</p>
+						<p class="content__profile-card-5__box-social-status__following following">207 seguindo</p>
+					</div>
+				</div>
+				<div class="content__profile-card-6 profile-card">
+					<div class="content__profile-card-6__box-img box-img">
+						<img class="content__profile-card-6__img" src="./assets/3.png" alt="Charles Santos Image">
+					</div>
+
+					<div class="content__profile-card-6__box-title box-title">
+						<h1 class="content__profile-card-6__box-title__name title__name">Charles Santos</h1>
+						<p class="content__profile-card-6__box-title__nickname nickname">@charles.santos</p>
+					</div>
+
+					<div class="content__profile-card-6__box-social-status box-social-status">
+						<p class="content__profile-card-6__box-social-status__followers followers">302 seguidores</p>
+						<p class="content__profile-card-6__box-social-status__following following">419 seguindo</p>
+					</div>
+				</div>
+				<div class="content__profile-card-7 profile-card">
+					<div class="content__profile-card-7__box-img box-img">
+						<img class="content__profile-card-7__img" src="./assets/1.png" alt="Anna Bia Image">
+					</div>
+
+					<div class="content__profile-card-7__box-title box-title">
+						<h1 class="content__profile-card-7__box-title__name title__name">Anna Bia</h1>
+						<p class="content__profile-card-7__box-title__nickname nickname">@anab</p>
+					</div>
+
+					<div class="content__profile-card-7__box-social-status box-social-status">
+						<p class="content__profile-card-7__box-social-status__followers followers">842 seguidores</p>
+						<p class="content__profile-card-7__box-social-status__following following">150 seguindo</p>
+					</div>
+				</div>
+
+				<div class="content__profile-card-8 profile-card">
+					<div class="content__profile-card-8__box-img box-img">
+						<img class="content__profile-card-8__img" src="./assets/2.png" alt="Mario Hisashi Image">
+					</div>
+
+					<div class="content__profile-card-8__box-title box-title">
+						<h1 class="content__profile-card-8__box-title__name title__name">Mario Hisashi</h1>
+						<p class="content__profile-card-8__box-title__nickname nickname">@hisashi</p>
+					</div>
+
+					<div class="content__profile-card-8__box-social-status box-social-status">
+						<p class="content__profile-card-8__box-social-status__followers followers">28 seguidores</p>
+						<p class="content__profile-card-8__box-social-status__following following">17 seguindo</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
